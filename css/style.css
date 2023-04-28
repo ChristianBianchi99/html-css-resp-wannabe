@@ -133,3 +133,31 @@ img {
         width: 100%;
     }
 }
+/* MOBILE */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 85px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    .col:nth-child(2), .col:nth-child(3) {
+        margin-top: 3.5rem;
+    }
+
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
+        width: 100%;
+    }
+
+    .why-us {
+        background-color: rgb(34, 34, 34);
+        margin-bottom: 0;
+        padding-bottom: 2.5rem;
+    }
+}
