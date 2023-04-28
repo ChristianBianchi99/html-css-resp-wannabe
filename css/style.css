@@ -165,3 +165,9 @@ img {
         padding: 3rem 0 2.5rem;
     }
 }
+/* BONUS */
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+}
